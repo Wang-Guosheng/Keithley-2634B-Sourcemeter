@@ -1,0 +1,1952 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./KTS-850J02_Installation_Guide_files/filelist.xml">
+<title>TSB Installation Guide</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>DALAB7</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>899</o:TotalTime>
+  <o:LastPrinted>2012-09-12T16:16:00Z</o:LastPrinted>
+  <o:Created>2018-09-13T21:14:00Z</o:Created>
+  <o:LastSaved>2018-09-13T21:14:00Z</o:LastSaved>
+  <o:Pages>6</o:Pages>
+  <o:Words>1742</o:Words>
+  <o:Characters>9936</o:Characters>
+  <o:Company>Keithley Instruments</o:Company>
+  <o:Lines>82</o:Lines>
+  <o:Paragraphs>23</o:Paragraphs>
+  <o:CharactersWithSpaces>11655</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:TargetScreenSize>1024x768</o:TargetScreenSize>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:PunctuationKerning/>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 159 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.55in;
+	text-indent:-.55in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l2 level1 lfo2;
+	tab-stops:list .55in;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.55in;
+	text-indent:-.55in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l2 level2 lfo2;
+	tab-stops:list .55in;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h3
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+h4
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.85in;
+	text-indent:-.6in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	mso-list:l2 level4 lfo2;
+	tab-stops:list .85in;
+	font-size:14.0pt;
+	font-family:"Times New Roman";}
+h5
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.95in;
+	text-indent:-.7in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	mso-list:l2 level5 lfo2;
+	tab-stops:list .95in;
+	font-size:13.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+h6
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.05in;
+	text-indent:-.8in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	mso-list:l2 level6 lfo2;
+	tab-stops:list 1.05in;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.15in;
+	text-indent:-.9in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	mso-list:l2 level7 lfo2;
+	tab-stops:list 1.15in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.25in;
+	text-indent:-1.0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	mso-list:l2 level8 lfo2;
+	tab-stops:list 1.25in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.35in;
+	text-indent:-1.1in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:9;
+	mso-list:l2 level9 lfo2;
+	tab-stops:list 1.35in;
+	font-size:11.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:48.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:96.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-indent:.5in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{mso-style-parent:"";
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-parent:"";
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:10.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+p.msoacetate, li.msoacetate, div.msoacetate
+	{mso-style-name:msoacetate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+p.NormalSpaceBefore, li.NormalSpaceBefore, div.NormalSpaceBefore
+	{mso-style-name:"Normal Space Before";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in .5in 1.0in .5in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:81950475;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1633058466 67698693 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:229771374;
+	mso-list-template-ids:-1661148458;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:359205094;
+	mso-list-template-ids:1748688238;}
+@list l2:level1
+	{mso-level-style-link:"Heading 1";
+	mso-level-text:%1;
+	mso-level-tab-stop:.55in;
+	mso-level-number-position:left;
+	margin-left:.55in;
+	text-indent:-.55in;}
+@list l2:level2
+	{mso-level-style-link:"Heading 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:.55in;
+	mso-level-number-position:left;
+	margin-left:.55in;
+	text-indent:-.55in;}
+@list l2:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.5in;}
+@list l2:level4
+	{mso-level-style-link:"Heading 4";
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:.85in;
+	mso-level-number-position:left;
+	margin-left:.85in;
+	text-indent:-.6in;}
+@list l2:level5
+	{mso-level-style-link:"Heading 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:.95in;
+	mso-level-number-position:left;
+	margin-left:.95in;
+	text-indent:-.7in;}
+@list l2:level6
+	{mso-level-style-link:"Heading 6";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:1.05in;
+	mso-level-number-position:left;
+	margin-left:1.05in;
+	text-indent:-.8in;}
+@list l2:level7
+	{mso-level-style-link:"Heading 7";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:1.15in;
+	mso-level-number-position:left;
+	margin-left:1.15in;
+	text-indent:-.9in;}
+@list l2:level8
+	{mso-level-style-link:"Heading 8";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-1.0in;}
+@list l2:level9
+	{mso-level-style-link:"Heading 9";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:1.35in;
+	mso-level-number-position:left;
+	margin-left:1.35in;
+	text-indent:-1.1in;}
+@list l3
+	{mso-list-id:409736673;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1638985928 -805772828 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-text:"\(%1\)";
+	mso-level-tab-stop:21.0pt;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:412581037;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1142647130 67698693 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l4:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:681972986;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1064222872 1002241118 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l6
+	{mso-list-id:711002446;
+	mso-list-type:hybrid;
+	mso-list-template-ids:60616148 285253628 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-start-at:6;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@list l7
+	{mso-list-id:742920485;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-785244716 67698693 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l7:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l7:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8
+	{mso-list-id:762335835;
+	mso-list-template-ids:1748688238;}
+@list l8:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:.55in;
+	mso-level-number-position:left;
+	margin-left:.55in;
+	text-indent:-.55in;}
+@list l8:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:.55in;
+	mso-level-number-position:left;
+	margin-left:.55in;
+	text-indent:-.55in;}
+@list l8:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.5in;}
+@list l8:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:.85in;
+	mso-level-number-position:left;
+	margin-left:.85in;
+	text-indent:-.6in;}
+@list l8:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:.95in;
+	mso-level-number-position:left;
+	margin-left:.95in;
+	text-indent:-.7in;}
+@list l8:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:1.05in;
+	mso-level-number-position:left;
+	margin-left:1.05in;
+	text-indent:-.8in;}
+@list l8:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:1.15in;
+	mso-level-number-position:left;
+	margin-left:1.15in;
+	text-indent:-.9in;}
+@list l8:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-1.0in;}
+@list l8:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:1.35in;
+	mso-level-number-position:left;
+	margin-left:1.35in;
+	text-indent:-1.1in;}
+@list l9
+	{mso-list-id:896476258;
+	mso-list-type:hybrid;
+	mso-list-template-ids:22305624 490612504 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l9:level1
+	{mso-level-tab-stop:45.0pt;
+	mso-level-number-position:left;
+	margin-left:45.0pt;
+	text-indent:-27.0pt;}
+@list l10
+	{mso-list-id:950627917;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1807295916 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l10:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11
+	{mso-list-id:1716005492;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1661148458 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l12
+	{mso-list-id:1764380644;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-428420068 490612504 -1376209750 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l12:level1
+	{mso-level-tab-stop:45.0pt;
+	mso-level-number-position:left;
+	margin-left:45.0pt;
+	text-indent:-27.0pt;}
+@list l12:level2
+	{mso-level-start-at:2;
+	mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:81.0pt;
+	mso-level-number-position:left;
+	margin-left:81.0pt;
+	text-indent:-27.0pt;
+	font-family:Symbol;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+@list l12:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13
+	{mso-list-id:1981111522;
+	mso-list-type:hybrid;
+	mso-list-template-ids:677313134 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l13:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>Installation Guide</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>Test Script Builder Software </p>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>Version: KTS-850J02</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>Keithley Instruments</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>June-2018</p>
+
+<p class=NormalSpaceBefore>&nbsp;</p>
+
+<p class=MsoToc1 style='tab-stops:24.0pt right dotted 539.5pt'><!--[if supportFields]><span
+style='font-size:10.0pt;text-transform:uppercase;font-weight:normal'><span
+style='mso-element:field-begin'></span><span style="mso-spacerun:
+yes"> </span>TOC \o &quot;1-2&quot; \h \z \u <span style='mso-element:field-separator'></span></span><![endif]--><span
+class=MsoHyperlink><a href="#_Toc524617025">1<span style='font-size:11.0pt;
+font-family:Calibri;color:windowtext;font-weight:normal;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1'>           </span></span>Introduction<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1'>   </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617025 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>1</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000320035000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='font-size:11.0pt;font-family:Calibri;font-weight:normal'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:24.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617026">2<span style='font-size:11.0pt;
+font-family:Calibri;color:windowtext;font-weight:normal;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1'>        </span></span>System
+Requirements<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1'>  </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617026 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>1</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000320036000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='font-size:11.0pt;font-family:Calibri;font-weight:normal'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:24.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617027">3<span style='font-size:11.0pt;
+font-family:Calibri;color:windowtext;font-weight:normal;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1'>           </span></span>Supported
+Operating Systems<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617027 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>1</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000320037000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='font-size:11.0pt;font-family:Calibri;font-weight:normal'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:24.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617028">4<span style='font-size:11.0pt;
+font-family:Calibri;color:windowtext;font-weight:normal;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1'>           </span></span>Supported
+Communication Interfaces<span style='color:windowtext;display:none;mso-hide:
+screen;text-decoration:none;text-underline:none'><span style='mso-tab-count:
+1 dotted'>. </span></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-begin'></span></span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'> PAGEREF
+_Toc524617028 \h </span><span style='color:windowtext;display:none;mso-hide:
+screen;text-decoration:none;text-underline:none'><span style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>2</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000320038000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='font-size:11.0pt;font-family:Calibri;font-weight:normal'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:24.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617029">5<span style='font-size:11.0pt;
+font-family:Calibri;color:windowtext;font-weight:normal;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1'>           </span></span>Supported
+Instruments<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617029 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>2</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000320039000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='font-size:11.0pt;font-family:Calibri;font-weight:normal'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:24.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617030">6<span style='font-size:11.0pt;
+font-family:Calibri;color:windowtext;font-weight:normal;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1'>           </span></span>Supported
+Virtual Instrument Programming Interfaces (VISA)<span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'> </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617030 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>3</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000330030000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='font-size:11.0pt;font-family:Calibri;font-weight:normal'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:24.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617031">7<span style='font-size:11.0pt;
+font-family:Calibri;color:windowtext;font-weight:normal;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1'>        </span></span>Test
+Script Builder (TSB) KTS-850J02 Software Installation<span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>.. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617031 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>4</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000330031000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='font-size:11.0pt;font-family:Calibri;font-weight:normal'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:48.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617032">7.1<span style='mso-bidi-font-size:
+11.0pt;font-family:Calibri;color:windowtext;text-decoration:none;text-underline:
+none'><span style='mso-tab-count:1'>                </span></span>Where can I
+find the installation files?<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1'>  </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617032 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>4</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000330032000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='mso-bidi-font-size:11.0pt;font-family:Calibri'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:48.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617033">7.2<span style='mso-bidi-font-size:
+11.0pt;font-family:Calibri;color:windowtext;text-decoration:none;text-underline:
+none'><span style='mso-tab-count:1'>         </span></span>How do I install?<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617033 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>4</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000330033000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='mso-bidi-font-size:11.0pt;font-family:Calibri'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:48.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617034">7.3<span style='mso-bidi-font-size:
+11.0pt;font-family:Calibri;color:windowtext;text-decoration:none;text-underline:
+none'><span style='mso-tab-count:1'>         </span></span>How do I upgrade?<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617034 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>5</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000330034000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='mso-bidi-font-size:11.0pt;font-family:Calibri'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:48.0pt right dotted 539.5pt'><span
+class=MsoHyperlink><a href="#_Toc524617035">7.4<span style='mso-bidi-font-size:
+11.0pt;font-family:Calibri;color:windowtext;text-decoration:none;text-underline:
+none'><span style='mso-tab-count:1'>         </span></span>How do I uninstall?<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc524617035 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>5</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003500320034003600310037003000330035000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span><span
+style='mso-bidi-font-size:11.0pt;font-family:Calibri'><o:p></o:p></span></p>
+
+<p class=NormalSpaceBefore><!--[if supportFields]><b><span style='font-size:
+10.0pt;font-family:Arial;mso-bidi-font-family:"Times New Roman";text-transform:
+uppercase'><span style='mso-element:field-end'></span></span></b><![endif]-->&nbsp;</p>
+
+<h1 style='tab-stops:list .3in'><a name="_Toc179981906"></a><a
+name="_Toc524617025"><span style='mso-bookmark:_Toc179981906'><![if !supportLists]>1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Introduction</span></a></h1>
+
+<p class=NormalSpaceBefore>Test Script Builder is a tool for creating and managing
+scripts for Keithley’s Test Script Processor (TSP) enabled instruments. It
+includes built-in color coding, debugging tools, and error handling.<span
+style="mso-spacerun: yes">  </span>This document provides information for the
+installation and removal of the Keithley Test Script Builder Software.<span
+style="mso-spacerun: yes">  </span>For a list of items new to this release and
+a list of known issues, please refer to the Test Script Builder Release Notes.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1><a name="_Toc179981907"></a><a name="_Toc524617026"><span style='mso-bookmark:
+_Toc179981907'><![if !supportLists]>2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>System Requirements</span></a></h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Pentium III, 800 MHz class PC or better</p>
+
+<p class=MsoNormal>500 MByte free disk space</p>
+
+<p class=MsoNormal>A supported communication interface (See section 4) to
+communicate with the instrument.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'>NOTE</i></b>: It is strongly recommended that your computer and
+instrument be powered by an Uninterruptible Power Supply (UPS) when running a
+critical application.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1><a name="_Toc179981908"></a><a name="_Toc524617027"><span style='mso-bookmark:
+_Toc179981908'><![if !supportLists]>3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Supported Operating Systems</span></a></h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo21;
+tab-stops:list .25in'><![if !supportLists]><span style='font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>Microsoft
+Windows 10 Pro &amp; Enterprise (32-bit &amp; 64-bit</span>)</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo21;
+tab-stops:list .25in'><![if !supportLists]><span style='font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>Microsoft
+Windows 8 Pro &amp; Enterprise (32-bit &amp; 64-bit</span>) <span
+style='mso-fareast-font-family:"MS Mincho"'>service pack 1 or later</span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo21;
+tab-stops:list .25in'><![if !supportLists]><span style='font-family:Wingdings;
+mso-fareast-font-family:"MS Mincho"'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>Microsoft
+Windows 7 Professional (32-bit &amp; 64-bit) service pack 1 or later<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in;mso-list:l0 level1 lfo21;
+tab-stops:list .25in'><![if !supportLists]><span style='font-family:Wingdings;
+mso-fareast-font-family:"MS Mincho"'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><span style='mso-fareast-font-family:"MS Mincho"'>Microsoft
+Windows Vista Business &amp; Enterprise &amp; Ultimate (32-bit &amp; 64-bit)
+service pack 2 or later<o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></i></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'>NOTE</i></b>: Windows 95, Windows 98, Windows ME, Windows NT, Windows
+2000, Windows XP operating systems are not supported.</p>
+
+<p class=MsoNormal><span style="mso-spacerun: yes"> </span></p>
+
+<p class=MsoNormal>Test Script Builder requires Internet Explorer version 6.0
+or later</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1 style='tab-stops:list -.7in'><a name="_Toc179981909"></a><a
+name="_Toc524617028"><span style='mso-bookmark:_Toc179981909'><![if !supportLists]>4<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Supported Communication Interfaces</span></a></h1>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>&nbsp;</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>The following interfaces are
+supported:</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l4 level1 lfo4;
+tab-stops:list -1.75in'><![if !supportLists]><span style='font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Keithley Instruments PCI GPIB cards</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.75in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level2 lfo17;
+tab-stops:list -1.5in'><![if !supportLists]><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>KPCI-488A
+with driver version 8.3 or higher</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.75in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level2 lfo17;
+tab-stops:list -1.25in'><![if !supportLists]><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>KPCI-488LPA
+with driver version 3.12.1 or higher</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l4 level1 lfo4;
+tab-stops:list -1.5in'><![if !supportLists]><span style='font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Keithley Instruments USB-to-GPIB adaptors</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.75in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level2 lfo17;
+tab-stops:list -.75in'><![if !supportLists]><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>KUSB-488A
+with driver version 8.3 or higher</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.75in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level2 lfo17;
+tab-stops:list -.5in'><![if !supportLists]><span style='font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>KUSB-488B
+with driver version 3.12.1 or higher</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l4 level1 lfo4;
+tab-stops:list -.75in'><![if !supportLists]><span style='font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>NI VISA compatible GPIB controllers</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l4 level1 lfo4;
+tab-stops:list -.5in'><![if !supportLists]><span style='font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Ethernet</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l4 level1 lfo4;
+tab-stops:list -.25in'><![if !supportLists]><span style='font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>USB (TMC Protocol)</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l4 level1 lfo4;
+tab-stops:list 0in'><![if !supportLists]><span style='font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>RS-232 </p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>      </span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'>NOTE</i></b>: Other than the Keithley Instruments or National
+Instruments USB-to-GPIB adaptors all other interfaces must be direct
+interfaces.<span style="mso-spacerun: yes">  </span>Test Script Builder was not
+tested with USB-RS-232 adaptors or Ethernet-to-GPIB adaptors.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'>NOTE</i></b>: The latest versions of Keithley drivers can be downloaded
+from <a href="http://www.keithley.com/support">http://www.keithley.com/support</a>.
+<span style="mso-spacerun: yes"> </span>At the Support page enter the model
+number of the GPIB card or interface, select Software Driver from the dropdown
+list and click Search (magnifying glass).</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1><a name="_Toc524617029"><![if !supportLists]>5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Supported Instruments</a></h1>
+
+<p class=MsoNormal>The following Keithley Instrument Models are supported by
+this release of Test Script Builder:</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal>Model Number</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Minimum Firmware Version Recommended to Run Scripts<sup>(1)</sup></p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Minimum Firmware Version Required to Debug Scripts</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>DAQ6510</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>DMM6500</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>DMM7510</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0h</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>DMM7512</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2450</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2460</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2461</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.4.0k</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.4.0k</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2601, 2602, 2611, 2612, 2635, 2636</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.4</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>&lt;not supported&gt;</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2601A, 2602A, 2611A, 2612A, 2635A, 2636A</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2.1</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2.2.2</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2601B, 2602B, 2604B, 2611B, 2612B, 2614B, 2634B, 2635B,
+  2636B</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>3.0</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>3.0</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2606B</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.0</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2651A</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.1</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.0.1</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>2657A</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.1</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.1</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>3706, 3706-S, 3706-NFP, 3706-SNFP</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.41</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>&lt;not supported&gt;</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>3706A, 3706A-S, 3706A-NFP, 3706A-SNFP</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.50</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.50</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=197 valign=top style='width:2.05in;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>707B, 708B</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.03</p>
+  </td>
+  <td width=197 valign=top style='width:2.05in;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>1.03</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:-.25in;mso-list:l3 level1 lfo18;
+tab-stops:list 21.0pt'><![if !supportLists]>(1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span><![endif]>Test Script Builder will work with instruments having older
+versions of firmware.<span style="mso-spacerun: yes">  </span>The noted
+versions are recommended because they include numerous improvements made over
+time, and will generally offer optimal performance.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1><a name="_Toc316918026"></a><a name="_Toc524617030"><span style='mso-bookmark:
+_Toc316918026'><![if !supportLists]>6<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Supported Virtual Instrument Programming Interfaces (VISA)</span></a></h1>
+
+<p class=MsoNormal>Test Script Builder uses VISA software to communicate with
+instruments.</p>
+
+<p class=MsoNormal>The following Virtual Instrument Software Architectures
+(VISA) are supported:</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=NormalSpaceBefore style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l4 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style='font-family:Wingdings'>§<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>National Instruments VISA (NI VISA)</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>If another version of VISA is already installed, then it may
+be used, but its performance is not guaranteed. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Other VISAs can also be uninstalled and reinstalled as a
+secondary VISA, as follows:</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:45.0pt;text-indent:-27.0pt;mso-list:l12 level1 lfo6;
+tab-stops:list 45.0pt'><![if !supportLists]>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Uninstall the non-NI VISA software</p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <ol style='margin-top:0in' start=1 type=a>
+  <li class=MsoNormal style='mso-list:l13 level2 lfo9;tab-stops:list 1.0in'>Uninstall
+      Tektronix VISA by selecting OpenChoice TekVISA from the Windows Add or
+      Remove Programs wizard (called Programs and Features in Windows 8) list.</li>
+  <li class=MsoNormal style='mso-list:l13 level2 lfo9;tab-stops:list 1.0in'>Uninstall
+      Agilent VISA by selecting Agilent I/O Libraries Suite from the Windows
+      Add or Remove Programs wizard (called Programs and Features in Windows 8)
+      list.</li>
+  <li class=MsoNormal style='mso-list:l13 level2 lfo9;tab-stops:list 1.0in'>Uninstall
+      other version of VISA by selecting the appropriate entry from the Windows
+      Add or Remove Programs (called Programs and Features in Windows 8) wizard
+      list.</li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:45.0pt;text-indent:-27.0pt;mso-list:l12 level1 lfo6;
+tab-stops:list 45.0pt'><![if !supportLists]>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Install Test Script Builder.</p>
+
+<p class=MsoNormal style='margin-left:45.0pt;text-indent:-27.0pt;mso-list:l12 level1 lfo6;
+tab-stops:list 45.0pt'><![if !supportLists]>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>If the pre-existing version of VISA was supplied by Tektronix
+or Agilent, you may safely reinstall that version of VISA once the Test Script
+Builder software installation is complete. When you reinstall Tektronix or
+Agilent VISA, it may prompt you to preserve current VISA version, which you
+should do.<span style="mso-spacerun: yes">  </span>This will usually restore
+the operation of any dependent applications or drivers.<span
+style="mso-spacerun: yes">  </span></p>
+
+<p class=MsoNormal style='margin-left:45.0pt;text-indent:-27.0pt;mso-list:l12 level1 lfo6;
+tab-stops:list 45.0pt'><![if !supportLists]>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>If the pre-existing version of VISA was supplied by a vendor other
+than Tektronix or Agilent, it is recommended that you do not reinstall it as
+this will likely cause the Test Script Builder software to malfunction.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1><a name="_Toc179981910"></a><a name="_Toc524617031"><span style='mso-bookmark:
+_Toc179981910'><![if !supportLists]>7<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Test Script Builder (TSB) KTS-850J02 Software Installation</span></a></h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'>NOTE</i></b>: It is recommended that you install GPIB hardware and
+software drivers prior to installing Test Script Builder. </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h2><a name="_Toc179981911"></a><a name="_Toc524617032"><span style='mso-bookmark:
+_Toc179981911'><![if !supportLists]>7.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Where can I find the installation files?</span></a></h2>
+
+<p class=NormalSpaceBefore>Test Script Builder software is included on a CD
+provided with the instrument, or it can be downloaded from <a
+href="http://www.keithley.com/support/keidoc_searchresult?keyword=TSB&amp;item_type=Software">http://www.keithley.com/support/keidoc_searchresult?keyword=TSB&amp;item_type=Software</a></p>
+
+<p class=NormalSpaceBefore>The latest version is always available from the
+website.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h2><a name="_Toc179981912"></a><a name="_Toc524617033"><span style='mso-bookmark:
+_Toc179981912'><![if !supportLists]>7.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>How do I install?</span></a></h2>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>Step #1- Install TSB and all its support components.</h3>
+
+<p class=MsoNormal>Install TSB from CD or download the self-extracting exe from
+the Keithley Website (<a
+href="http://www.keithley.com/support/keidoc_searchresult?keyword=TSB&amp;item_type=Software">http://www.keithley.com/support/keidoc_searchresult?keyword=TSB&amp;item_type=Software</a>).
+If you have any of the support components already on your system, the
+installation utility will detect these and update them, where applicable;
+otherwise it will not install the existing support component.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Test Script Builder software installs the following
+components:</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Microsoft
+.NET Framework 4 Client Profile</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Microsoft
+Visual C++ 2010 Runtime SP1</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>IVI
+Compliance Package (ICP) 17.0</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>National
+Instruments VISA Runtime 17.5</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Keithley
+KESCPI IVI Instrument Driver (SCPI-856C07)</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Keithley
+I/O Layer C06 (KIOL-850C10)</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Keithley
+Test Script Builder KTS-850J02</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Keithley
+Test Script Builder Add-In for 70xB (KTS-853J02)</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Keithley
+Test Script Builder Add-In for 2450 (KTS-856J02)</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Keithley
+Test Script Builder Add-In for 2460/2461 (KTS-858J02)</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Keithley
+Test Script Builder Add-In for 2600S (KTS-851J02)</p>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span>Keithley
+Test Script Builder Add-In for 2651A/2657A (KTS-854J02)</p>
+
+<p class=MsoNormal style='text-indent:.5in'>Keithley Test Script Builder Add-In
+for 3700AS (KTS-855J02)</p>
+
+<p class=MsoNormal style='text-indent:.5in'>Keithley Test Script Builder Add-In
+for DMM7510 (KTS-857J02)</p>
+
+<p class=MsoNormal style='text-indent:.5in'>Keithley Test Script Builder Add-In
+for DMM/DAQ65XX (KTS-859J02)</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'>NOTE:</i></b> DO NOT uninstall any other versions of Microsoft .NET
+Framework.</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>&nbsp;</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>Unless you have special
+requirements, accept all the default options for the software installation.
+Depending on your computer’s operating system and configuration, some
+installation utilities prompt you to reboot your computer one or more times
+during the installation process.<span style="mso-spacerun: yes">  </span>The
+installation utilities resume automatically following each requested reboot.</p>
+
+<p class=NormalSpaceBefore style='margin-top:0in'>&nbsp;</p>
+
+<h3>Step #2 – Launch Test Script Builder </h3>
+
+<p class=NormalSpaceBefore>To launch Test Script Builder, select Start &#8594;
+Programs &#8594; Keithley Instruments &#8594; TestScriptBuilder.</p>
+
+<p class=NormalSpaceBefore>The Welcome page of the software provides access to
+tutorials and help files that will help you learn and use the Test Script
+Builder software.</p>
+
+<h2><a name="_Toc179981914"></a><a name="_Toc524617034"><span style='mso-bookmark:
+_Toc179981914'><![if !supportLists]>7.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>How do I upgrade?</span></a></h2>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h3>7.3.1 How to upgrade TSB version J01</h3>
+
+<p class=MsoNormal>Perform the following steps to upgrade TSB:</p>
+
+<p class=MsoNormal style='margin-left:45.0pt;text-indent:-27.0pt;mso-list:l9 level1 lfo14;
+tab-stops:list 45.0pt'><![if !supportLists]>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Save Your Workspace. Backup your TSB workspace to a secure
+location. These are normally found in the following directories:</p>
+
+<p class=MsoNormal style='margin-left:.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in'>Windows Vista, 7, 8, 10:</p>
+
+<p class=MsoNormal style='text-indent:.5in'>C:\Users\&lt;yourLoginName&gt;\My
+Documents\Keithley Test Script Builder\Workspaces\workspace</p>
+
+<p class=MsoNormal style='text-indent:.25in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:45.0pt;text-indent:-27.0pt;mso-list:l9 level1 lfo14;
+tab-stops:list 45.0pt'><![if !supportLists]>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Upgrade your GPIB driver (if applicable). If you have a
+KPCI-488LP, KPCI-488LPA or KUSB-488B GPIB card or interface with driver version
+3.12.1 or older, then uninstall the GPIB driver and then install the latest
+GPIB driver (version 3.12.1 or newer).<span style="mso-spacerun: yes"> 
+</span>You can check the version and/or uninstall the driver using the Windows
+Add or Remove Programs wizard.<span style="mso-spacerun: yes">  </span>The
+latest driver can be downloaded from <a href="http://www.keithley.com/support">http://www.keithley.com/support</a>.<span
+style="mso-spacerun: yes">  </span>At the Support page enter the model number
+of the GPIB card or interface, select Software Driver from the dropdown list
+and click Search (magnifying glass).</p>
+
+<p class=MsoNormal style='margin-left:.25in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:45.0pt;text-indent:-27.0pt;mso-list:l9 level1 lfo14;
+tab-stops:list 45.0pt'><![if !supportLists]>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Install TSB J02 over the existing J01 version. Refer to section
+7.2 of this guide for TSB J02 installation details.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3>7.3.2 How to upgrade TSB versions older than J01</h3>
+
+<p class=MsoNormal>TSB versions older than J01 must first be removed before
+installing the new version J02. To uninstall the components please refer to
+section 7.4 of this guide, then refer to section 7.2 for installation
+details.&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h2><a name="_Toc524617035"><![if !supportLists]>7.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>How do I uninstall?</a></h2>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>To uninstall the Test Script Builder and all of its software
+components, use the Windows Add or Remove Programs wizard (called Programs and
+Features in Windows 10) to remove each of the individual software components:</p>
+
+<p class=MsoNormal><span style="mso-spacerun: yes"> </span></p>
+
+<ul style='margin-top:0in' type=square>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     I/O Layer </li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo12;tab-stops:list 1.0in'><i
+      style='mso-bidi-font-style:normal'>Most software provided by Keithley,
+      including LabTracer 2 and Keithley instrument IVI drivers, depends on
+      this component.<o:p></o:p></i></li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     KESCPI IVI Instrument Driver</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo12;tab-stops:list 1.0in'><i
+      style='mso-bidi-font-style:normal'>Most software provided by Keithley,
+      including LabTracer 2 and Keithley instrument IVI drivers, depends on
+      this component.<o:p></o:p></i></li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     Test Script Builder</li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     Test Script Builder Add-In for 70xB</li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     Test Script Builder Add-In for 2450</li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     Test Script Builder Add-In for 2460/2461</li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     Test Script Builder Add-In for DMM7510</li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     Test Script Builder Add-In for 2600S</li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     Test Script Builder Add-In for 2651A/2657A</li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     Test Script Builder Add-In for 3700AS</li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>Keithley
+     Test Script Builder Add-In for DMM/DAQ65XX</li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>National
+     Instruments IVI Compliance Package </li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo12;tab-stops:list 1.0in'><i
+      style='mso-bidi-font-style:normal'>Various software products from
+      National Instruments depend on this.<o:p></o:p></i></li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>National
+     Instruments VISA Runtime </li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo12;tab-stops:list 1.0in'><i
+      style='mso-bidi-font-style:normal'>Various software products from
+      National Instruments depend on this.<o:p></o:p></i></li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>IVI
+     Shared Components </li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo12;tab-stops:list 1.0in'><i
+      style='mso-bidi-font-style:normal'>Various software products from
+      National Instruments depend on this.<o:p></o:p></i></li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'>VISA
+     Shared Components</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo12;tab-stops:list 1.0in'><i
+      style='mso-bidi-font-style:normal'>Various software products from
+      National Instruments depend on this.<o:p></o:p></i></li>
+ </ul>
+</ul>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></i></p>
+
+<p class=MsoNormal><span style="mso-spacerun: yes"> </span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'>NOTE: </i></b><span style="mso-spacerun: yes"> </span>Test Script
+Builder software can also install Microsoft .NET Framework.<span
+style="mso-spacerun: yes">  </span>As this software component is used by a wide
+variety of programs on non-Keithley software, it is suggested that you do not
+uninstall this component.<b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><o:p></o:p></i></b></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>

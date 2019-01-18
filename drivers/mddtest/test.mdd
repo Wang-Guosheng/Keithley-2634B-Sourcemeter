@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MATLABInstrumentDriver>
+   <FileVersion>2.42</FileVersion>
+   <DriverName>C:\Users\王国胜\Documents\MATLAB\learnICT\KEITHLEY2634B\test.mdd</DriverName>
+   <DriverType>MATLAB interface object</DriverType>
+   <InstrumentType>Oscilloscope</InstrumentType>
+   <InstrumentManufacturer>Manufacturer</InstrumentManufacturer>
+   <InstrumentModel>Model</InstrumentModel>
+   <InstrumentVersion>1.0</InstrumentVersion>
+   <Identify>*IDN?</Identify>
+   <Reset>*RST</Reset>
+   <Selftest>*TST?</Selftest>
+   <Error>System:Error?</Error>
+   <CreateInitCode>
+      <Code>function init(obj)
+% This function is called after the object is created.
+% OBJ is the device object.
+% End of function definition - DO NOT EDIT
+
+% Extract the interface object.
+interface = get(obj, 'Interface');
+fclose(interface);
+% Configure the buffer size
+set(interface, 'InputBufferSize', 21000);
+set(interface, 'OutputBufferSize', 21000);
+set(interface, 'ByteOrder', 'littleEndian');
+function init(obj)
+% This method is called after the object is connected.
+% OBJ is the device object.
+% End of function definition - DO NOT EDIT
+%get the interface
+interface = get(obj, 'interface');
+%If HEADER is not OFF or VERBOSE is not ON then responses retrieved from
+% the device will not match what is expected, and the driver will not
+% function properly.
+fprintf(interface, 'HEADER OFF');
+fprintf(interface, 'VERBOSE ON');
+%Clear the Standard Event Status Register (SESR) to remove possible Power
+% on event, which would otherwise be returned by getError.
+query(interface, '*ESR?');</Code>
+   </CreateInitCode>
+   <ConnectInitCode>
+      <Type>MCode</Type>
+      <Code>function init(obj)
+% This function is called after the object is connected.
+% OBJ is the device object.
+% End of function definition - DO NOT EDIT
+</Code>
+   </ConnectInitCode>
+   <CleanupCode>
+      <Type>InstrumentCommand</Type>
+   </CleanupCode>
+   <GroupInfo>
+      <Group>
+         <Name>parent</Name>
+         <Description/>
+         <Command/>
+         <Size>1</Size>
+         <Mappings>
+            <ChannelMap Command="parent1" Index="1"/>
+         </Mappings>
+         <PropertyInfo/>
+         <MethodInfo/>
+      </Group>
+   </GroupInfo>
+</MATLABInstrumentDriver>
